@@ -1,0 +1,388 @@
+/* Cross-Page */
+.logo {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    margin: 5px 5px 5px 5px;
+}
+
+body {
+    background-color: #185794;
+	font-family: "Nunito", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60pt;
+    padding-bottom: 50px;
+	font-family: 'Carter One', cursive;
+	color: rgb(255, 255, 255);
+	/*border: 5px double rgb(255, 255, 255);*/
+}
+
+.myContainer {
+    display: flex;
+    overflow: scroll;
+}
+
+
+/* Landing Page */
+.banner {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.direct-to-login {
+    display: block;
+    bottom: 10px;
+    padding-top: 500px;
+}
+
+#title {
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+/* Login & Sign-Up */
+.login {
+    background-color: #f7ad2b;
+	width: 360px;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+	font-size: 20pt;
+    border-radius: 20px;
+    border-color: #ffc54a;
+	color: #185794;
+    margin: 20px 20px 20px 20px;
+	margin: 0 auto;
+	display: block;
+    border: none;
+}
+
+.signup-form {
+    margin: 20px 0px 0px;
+}
+
+#creds-confirm {
+    display: none;
+}
+
+.login-signup-header {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    margin-left: 35%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-group {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.back-button {	
+    width: 360px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+	font-size: 15pt;
+    border-radius: 20px;
+	color: #185794;
+    margin: 20px 20px 20px 20px;
+	margin: 0 auto;
+	display: block;
+    border: none;
+}
+
+/* Bootstrap */
+.container {
+    margin-top: 100px;
+    padding: 30px 30px 30px 30px;
+    width: 25%;
+    background-color: rgb(255, 255, 255, 0.3) !important;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgb(0,0,0,0.1);
+}
+
+#form1 {
+    border-radius: 8px 0px 0px 8px;
+}
+
+.btn-primary {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.card {
+    display: block;
+    width: 570px !important;
+    flex: 1;
+    background-color: #1f6dbc;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #0c4c8d;
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+
+.btn-primary {
+    border-radius: 12px !important;
+    background-color: #0c4c8d !important;
+}
+
+/* fontawesome */
+.fa-edit {
+    color: #ffffff90 !important;
+    width: 40px !important;
+}
+
+
+/* Home After Login */
+.topnav {
+    background-color:#ffc54a;
+    display: static;
+    padding-left: 15%;
+    font-family: 'Impact', fantasy;
+}
+
+.topnav a {
+    float: left;
+    background-color: #ffc54a;
+    color: white; /*change later*/
+    text-align: center;
+    padding: 14px 56px;
+    text-decoration: none;
+    font-size: 17pt;
+}
+
+.topnav a.active {
+    background-color: #ffae00;
+    color: white; /*change later*/
+}
+
+.topnav :first-child {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.topnav :last-child {
+    border-radius: 0px 20px 20px 0px; 
+}
+
+.btn-browse {
+    background-color: #ffc54a;
+    color: #005592;
+    font-family: 'Carter One', cursive;
+}
+
+.filler {
+    display: block;
+    height: 150px;
+}
+
+.filler-2 {
+    display: block;
+    height: 100px;
+}
+
+.filler-3 {
+    display: block;
+    height: 50px;
+}
+
+.rubbermaid {
+    display: flex;
+    margin: 100px 255px 50px 160px;
+}
+
+.trip-box {
+    background-color: #006dbb;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    border-radius: 15px;
+    /*margin: 100px 250px 100px 250px;*/
+    margin-left: 5%;
+    text-align: center;
+    height: 270px;
+    width: 100px;
+    padding: 50px 10px 10px 10px;
+    flex: 1;
+}
+
+.btn-cancel {
+    height: 50px;
+    width: 200px;
+    background-color: #005592;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+}
+
+/* Profile */
+div .thin-header {
+    background-image: url('https://i.imgur.com/6EWwngS.png');
+}
+
+.prof-box {
+    background-color: #006dbb;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-top: -50px;
+    text-align: left;
+    display: static;
+    height: 300px;
+    width: 980px;
+    padding: 100px 100px 240px 100px;
+}
+
+.active-dot {
+    display: block;
+    position: relative;
+    left: 400px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+}
+
+.profile-img {
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 290px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 0px 12px #006dbb;
+}
+
+.btn-save {
+    background-color: #1f6dbc;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    border-style: none;
+    border-radius: 8px;
+    display: block;
+    position: relative;
+    height: 35px;
+    width: 65px;
+    left: -65px;
+    top: 170px;
+}
+
+
+/* Find Trips */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wide {
+    width: 40%;
+}
+
+#myMap {
+    position: relative;
+    top: -50px;
+    left: 20px;
+    width: 25vw;
+    height: 50vh;
+    margin: 50px 0px;
+}
+
+.find-trips-cards {
+    display: block;
+    height: 400px;
+    width: 600px;
+    margin-left: 220px;
+    overflow-y: scroll;
+    font-family: "Raleway", sans-serif;
+}
+
+#search {
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+/* Friends */
+
+.friend-box {
+    background-color: #006dbb;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    border-radius: 15px;
+    margin-left: 4%;
+    text-align: center;
+    display: inline-block;
+    height: 300px;
+    width: 290px;
+    padding: 70px 10px 240px 10px;
+}
+
+.friend-cards {
+    margin-left: 11.5%;
+}
+
+.friend-img-1 {
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 95px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.friend-img-2 {
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 95px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.friend-img-3 {
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 95px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+/* Notifications */
+
+.notif {
+    background-color: #006dbb;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17pt;
+    border-radius: 15px;
+    margin-left: 15%;
+    text-align: left;
+    height: 60px;
+    width: 980px;
+    padding: 13px 10px 10px 50px;
+}
