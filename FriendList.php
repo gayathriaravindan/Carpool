@@ -14,7 +14,6 @@ $output = <<<OUTPUT
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Raleway:wght@300;600&display=swap" rel="stylesheet">
             <script src="https://kit.fontawesome.com/2d53ba5abb.js" crossorigin="anonymous"></script>
-            
             <title>Friends List</title>
         </head>
         

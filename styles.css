@@ -203,7 +203,7 @@ h3 {
 
 .rubbermaid {
     display: flex;
-    margin: 100px 255px 50px 160px;
+    margin: 100px 245px 50px 163px;
 }
 
 .trip-box {
@@ -221,6 +221,11 @@ h3 {
     flex: 1;
 }
 
+#plan-trip {
+    height: 160px;
+    padding: 20px 10px 10px 10px;
+}
+
 .btn-cancel {
     height: 50px;
     width: 200px;
@@ -230,7 +235,11 @@ h3 {
     font-size: 15pt;
     border-radius: 10px;
     border: none;
-    margin-top: 25px;
+    margin-top: 22px;
+}
+
+#special-cancel {
+    margin-top: 5px;
 }
 
 /* Profile */
@@ -320,6 +329,7 @@ div .thin-header {
 
 #search {
     border-radius: 0px 10px 10px 0px !important;
+    border-color: none;
 }
 
 /* Friends */

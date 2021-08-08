@@ -33,6 +33,13 @@ $output = <<<OUTPUT
             </div>
     
             <div class="rubbermaid">
+                <div class="trip-box" id="plan-trip">
+                    <p><b>Plan a Trip</b></p>
+                    <button class="btn-cancel" id="special-cancel">New Trip!</button>
+                </div>
+            </div>
+
+            <div class="rubbermaid">
                 <div class="trip-box">
                     <p><b>Sky Zone</b></p>
                     <p>Tom Buchanan         12:00 PM</p>
@@ -54,7 +61,7 @@ $output = <<<OUTPUT
             <div class="rubbermaid">
                 <div class="trip-box">
                     <p><b>McDonalds</b></p>
-                    <p>John K.         5:00 PM</p>
+                    <p>Colonel Sanders         5:00 PM</p>
                     <button class="btn-cancel">Cancel</button>
                 </div>
                 <div class="trip-box">
@@ -69,6 +76,8 @@ $output = <<<OUTPUT
                     <button class="btn-cancel">Cancel</button>
                 </div>
             </div>
+
+            
     
         <!--<script src="/__/firebase/8.9.0/firebase-app.js"></script>
         <script src="/__/firebase/8.9.0/firebase-analytics.js"></script>

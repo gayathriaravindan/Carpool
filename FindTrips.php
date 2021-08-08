@@ -1,10 +1,9 @@
-<?php 
-$output = <<<OUTPUT
+
     <!DOCTYPE html>
     <html lang="en">
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <script type="module" src="script.js"></script>
+            <script type="module" src="printProfile.js"></script>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -49,12 +48,12 @@ $output = <<<OUTPUT
     
             <div class="myContainer">
                 <div class="find-trips-cards">
-                    <div class="card text-center">
+                    <div class="card text-center" id="remove1">
                         <div class="card-header">Lisa Reynolds is going to...</div>
                         <div class="card-body">
                             <h5 class="card-title"><b>Greenwood Park</b></h5>
                             <p class="card-text">
-                            0.2 miles away from your destination!
+                            20.2 miles away from your destination!
                             <br>Today @ 7:30 AM
                             </p>
                             <a href="#" class="btn btn-primary">Carpool!</a>
@@ -77,12 +76,12 @@ $output = <<<OUTPUT
     
                     <div class="filler-3"></div>
     
-                    <div class="card text-center">
+                    <div class="card text-center" id="remove2">
                         <div class="card-header">Caroline B. is going to...</div>
                         <div class="card-body">
                             <h5 class="card-title"><b>Rainbow Playground</b></h5>
                             <p class="card-text">
-                            2.7 miles away from your destination!
+                            9.7 miles away from your destination!
                             <br>Today @ 4:20 PM
                             </p>
                             <a href="#" class="btn btn-primary">Carpool!</a>
@@ -96,15 +95,16 @@ $output = <<<OUTPUT
                         <div class="card-body">
                             <h5 class="card-title"><b>Liberty Island</b></h5>
                             <p class="card-text">
-                            4.9 miles away from your destination!
+                            2.3 miles away from your destination!
                             <br>Today @ 6:00 PM
                             </p>
                             <a href="#" class="btn btn-primary">Carpool!</a>
                         </div>
+                    </div>
                         
                     <div class="filler-3"></div>
     
-                    <div class="card text-center">
+                    <div class="card text-center" id="remove3">
                         <div class="card-header">Beo Wolfe is going to...</div>
                         <div class="card-body">
                             <h5 class="card-title"><b>Medieval Times</b></h5>
@@ -114,6 +114,7 @@ $output = <<<OUTPUT
                             </p>
                             <a href="#" class="btn btn-primary">Carpool!</a>
                         </div>
+                    </div>
 
                     <div class="filler-3"></div>
     
@@ -122,12 +123,11 @@ $output = <<<OUTPUT
                         <div class="card-body">
                             <h5 class="card-title"><b>Harbor Bay</b></h5>
                             <p class="card-text">
-                            12.3 miles away from your destination!
-                            <br>Tomorrow @ 3:30 PM
+                            4.9 miles away from your destination!
+                            <br>Tomorrow @ 12:00 PM
                             </p>
                             <a href="#" class="btn btn-primary">Carpool!</a>
                         </div>
-                        
                     </div>
     
                     <div class="filler-3"></div>
@@ -138,5 +138,3 @@ $output = <<<OUTPUT
         
         </body>
     </html>
-    OUTPUT;
-    echo $output;
